@@ -1,11 +1,16 @@
 * {
     margin: 0px;
     box-sizing: border-box;
-}
+   }
 
+main{
+    padding-left: 5px;
+}
+/* header ................... */
 #logo {
-    width: 8em;
-    margin-top: 20px;
+    width: 15em;
+    margin-top: 50px;
+    padding-left: 10px;
 }
 
 header {
@@ -13,5 +18,37 @@ header {
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-repeat: repeat-x;
-    background-size:35%;
+    background-size: 45%;    
+}
+
+/* main .. */
+
+/* title................... */
+.title{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.title h1{ 
+    font-size: 38px;
+}
+  
+.title div{
+      color: grey;
+}
+ 
+#autor{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#autor span{
+    color:#20a9e5 ;
+    text-transform:capitalize;
+}
+
+#date{
+    font-size: 0.8em;
+    
+
 }
